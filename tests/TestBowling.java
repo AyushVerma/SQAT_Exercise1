@@ -13,7 +13,7 @@ public class TestBowling {
 	@Test
 	public void testFrameScore() throws BowlingException {
 		
-		Frame f = new Frame(10,2);
+		Frame f = new Frame(10,1);
 		int score = f.score();
 		assertTrue(score==10);
 	}
