@@ -8,6 +8,7 @@ public class Frame {
 		if(firstThrow >10 || firstThrow+secondThrow>10) {
 			throw new BowlingException();
 		}
+		
 	}
 	
 	public int getFirstThrow() {
@@ -25,7 +26,7 @@ public class Frame {
 		if(firstThrow == 10)
 			score = 10;
 		else 
-			score = firstThrow +secondThrow;
+			score = firstThrow + secondThrow;
 		
 		return score;
 	}
