@@ -76,3 +76,11 @@ EditAction 1474551019638 TestBowling.java 532 3 6 2
 UnitTestCaseAction 1474551019921 TestBowling.java FAIL
 UnitTestSessionAction 1474551019922 TestBowling.java FAIL
 EditAction 1474551031876 TestBowling.java 532 3 6 2
+UnitTestCaseAction 1474551032143 TestBowling.java FAIL
+UnitTestSessionAction 1474551032144 TestBowling.java FAIL
+RefactoringAction 1474551050410 TestBowling.java ADD void testFrameIsStrike()/2 METHOD
+RefactoringAction 1474551054422 TestBowling.java RENAME testFrameIsStrike()/2=>void testFrameIsS() METHOD
+RefactoringAction 1474551072935 TestBowling.java RENAME testFrameIsS()=>void testFrameI() METHOD
+RefactoringAction 1474551074947 TestBowling.java RENAME testFrameI()=>void testFrameIisSpare() METHOD
+RefactoringAction 1474551077959 TestBowling.java RENAME testFrameIisSpare()=>void testFrameIsSpare() METHOD
+EditAction 1474551109762 TestBowling.java 665 4 8 3

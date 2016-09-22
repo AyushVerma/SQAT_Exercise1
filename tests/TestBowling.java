@@ -21,9 +21,15 @@ public class TestBowling {
 	@Test
 	public void testFrameIsStrike() throws BowlingException {
 		
-		Frame f = new Frame(0,10);
+		Frame f = new Frame(10,0);
 		assertTrue(f.isStrike());
 	}
 	
+	@Test
+	public void testFrameIsSpare() throws BowlingException {
+		
+		Frame f = new Frame(10,0);
+		assertTrue(f.isSpare());
+	}
 
 }
