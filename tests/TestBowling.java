@@ -13,9 +13,9 @@ public class TestBowling {
 	@Test
 	public void testFrameScore() throws BowlingException {
 		
-		Frame f = new Frame(10,0);
+		Frame f = new Frame(4,5);
 		int score = f.score();
-		assertFalse(score!=10);
+		assertFalse(score!=9);
 	}
 	
 	
