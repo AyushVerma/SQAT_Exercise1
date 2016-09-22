@@ -5,3 +5,17 @@ EditAction 1474548548590 TestBowling.java 225 1 1 0
 UnitTestCaseAction 1474548550686 TestBowling.java OK
 UnitTestSessionAction 1474548550688 TestBowling.java OK
 EditAction 1474548609037 TestBowling.java 224 1 1 0
+UnitTestCaseAction 1474548609315 TestBowling.java FAIL
+UnitTestSessionAction 1474548609316 TestBowling.java FAIL
+RefactoringAction 1474548682767 TestBowling.java RENAME test()=>void testValid() METHOD
+RefactoringAction 1474548683779 TestBowling.java RENAME testValid()=>void testVali() METHOD
+RefactoringAction 1474548690791 TestBowling.java RENAME testVali()=>void testValid() METHOD
+RefactoringAction 1474548697804 TestBowling.java RENAME testValid()=>void testValidFr() METHOD
+RefactoringAction 1474548699317 TestBowling.java RENAME testValidFr()=>void testValidFrame() METHOD
+RefactoringAction 1474548758896 TestBowling.java ADD void test FIELD
+RefactoringAction 1474548762415 TestBowling.java RENAME test=>void testF FIELD
+RefactoringAction 1474548765928 TestBowling.java RENAME testF=>void testFrameScore FIELD
+RefactoringAction 1474548769941 TestBowling.java RENAME testFrameScore=>void testFrameScore() METHOD
+UnitTestCaseAction 1474549289407 TestBowling.java FAIL
+UnitTestSessionAction 1474549289408 TestBowling.java FAIL
+EditAction 1474549535451 TestBowling.java 399 2 4 1

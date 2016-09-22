@@ -5,9 +5,19 @@ import org.junit.Test;
 public class TestBowling {
 
 	@Test(expected=BowlingException.class)
-	public void test() throws BowlingException {
+	public void testValidFrame() throws BowlingException {
 		
 		Frame f = new Frame(10,0);
 	}
+	
+	@Test
+	public void testFrameScore() throws BowlingException {
+		
+		Frame f = new Frame(10,0);
+		int score = f.score();
+		assertFalse(score!=10);
+	}
+	
+	
 
 }
