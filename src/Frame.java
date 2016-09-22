@@ -1,14 +1,14 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	
+	private int frameScore;
 	public Frame(int firstThrow, int secondThrow) throws BowlingException{
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		if(firstThrow >10 || firstThrow+secondThrow>10) {
 			throw new BowlingException();
 		}
-		
+		frameScore = score();
 	}
 	
 	public int getFirstThrow() {
