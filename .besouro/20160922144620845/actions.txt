@@ -59,3 +59,4 @@ EditAction 1474550477217 Frame.java 931 6 12 0
 RefactoringAction 1474550698058 Frame.java ADD int frame FIELD
 RefactoringAction 1474550700570 Frame.java RENAME frame=>int frameScore FIELD
 EditAction 1474550800822 Frame.java 975 6 13 0
+EditAction 1474550870589 BowlingGame.java 626 4 2 0
