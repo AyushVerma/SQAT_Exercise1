@@ -18,6 +18,12 @@ public class TestBowling {
 		assertTrue(score==10);
 	}
 	
+	@Test
+	public void testFrameIsStrike() throws BowlingException {
+		
+		Frame f = new Frame(5,4);
+		assertTrue(f.isStrike());
+	}
 	
 
 }

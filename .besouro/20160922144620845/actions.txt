@@ -60,3 +60,10 @@ RefactoringAction 1474550698058 Frame.java ADD int frame FIELD
 RefactoringAction 1474550700570 Frame.java RENAME frame=>int frameScore FIELD
 EditAction 1474550800822 Frame.java 975 6 13 0
 EditAction 1474550870589 BowlingGame.java 626 4 2 0
+RefactoringAction 1474550890612 TestBowling.java ADD void testFrameScore()/2 METHOD
+RefactoringAction 1474550901127 TestBowling.java RENAME testFrameScore()/2=>void testFrame() METHOD
+RefactoringAction 1474550903139 TestBowling.java RENAME testFrame()=>void testFrameis() METHOD
+RefactoringAction 1474550904152 TestBowling.java RENAME testFrameis()=>void testFrame() METHOD
+RefactoringAction 1474550905664 TestBowling.java RENAME testFrame()=>void testFrameIs() METHOD
+RefactoringAction 1474550909176 TestBowling.java RENAME testFrameIs()=>void testFrameIsStrike() METHOD
+EditAction 1474550978484 TestBowling.java 531 3 6 2
