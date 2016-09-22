@@ -15,7 +15,7 @@ public class TestBowling {
 		
 		Frame f = new Frame(4,5);
 		int score = f.score();
-		assertFalse(score!=9);
+		assertFalse(score!=7);
 	}
 	
 	
